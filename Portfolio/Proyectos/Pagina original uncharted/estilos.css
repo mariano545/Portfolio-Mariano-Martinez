@@ -1,0 +1,126 @@
+body {
+    background: #f4f1e8;
+}
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background:  linear-gradient(
+        rgba(15, 40, 55, 0.55),
+        rgba(15, 40, 55, 0.55)
+    ),
+    url("img/imagen.fondo.jpg") center/cover;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #C9A45C !important;
+    transform:unset;
+}
+
+section#Historia {
+    background-color: #11161D;
+}
+
+.hero h1 {
+    letter-spacing: 4px;
+}
+
+
+.juegos {
+    background:#1B222C;
+    h2{color:#f4f1e8 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+}
+
+.card {
+    border: 0;
+    transition: .2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.personaje {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.personajes {
+    background-color: #0D1B2A;
+    h2,h1{color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;}
+    }
+
+.personaje {
+    background:#F1FF9C;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    transition: .3s;
+}
+
+.personaje:hover {
+    transform: translateY(-5px);
+}
+
+.personaje img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.lugares {
+    background-color:#223452;
+    p{color: azure;
+    font-family:sans-serif;}
+}
+
+.lugares h2 {
+    color: #f4f1e8;
+}
+
+.lugares h3 {
+    color: #f4f1e8;
+    font-weight: bold;
+}
+
+.lugares p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.lugares img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.legado {
+    background: url("img/fondo.jpeg") center/cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.legado p {
+    max-width: 700px;
+    line-height: 1.7;
+}
