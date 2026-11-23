@@ -1,0 +1,158 @@
+body {
+    background-color: #111111;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #080808;
+    border-bottom: 2px solid #c5a34a;
+}
+
+.navbar {
+    border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+    color: #d6b65c !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #d6b65c !important;
+}
+
+.portada {
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+
+.portada h1 {
+    color: #e6ff01;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.portada h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.fecha {
+    color: #cccccc;
+    margin-top: 20px;
+}
+
+.portada-img {
+    width: 350px;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.seccion {
+    background-color: #1c1c1c;
+    padding: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.seccion h2 {
+    color: #d6b65c;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+}
+
+.seccion p {
+    color: #dddddd;
+}
+
+.seccion li {
+    margin-bottom: 12px;
+}
+
+.imagen-seccion {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.table {
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.table th {
+    color: #d6b65c;
+}
+
+
+.lista-servicios {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+
+.btn-dorado {
+    background-color: #c5a34a;
+    color: #111111;
+    border: none;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btn-dorado:hover {
+    background-color: #e0c16b;
+    color: black;
+}
+
+.formulario {
+    max-width: 600px;
+}
+
+.form-label {
+    color: #d6b65c;
+}
+
+footer {
+    background-color: #080808;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    color: #aaaaaa;
+}
+
+@media (max-width: 576px) {
+
+    .portada h1 {
+        font-size: 29px;
+    }
+
+    .portada h2 {
+        font-size: 17px;
+    }
+
+    .seccion {
+        padding: 20px;
+    }
+
+    .portada-img {
+        width: 90%;
+    }
+
+}
